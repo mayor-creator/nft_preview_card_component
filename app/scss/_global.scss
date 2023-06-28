@@ -1,0 +1,154 @@
+@use "./varibales" as v;
+
+body {
+    background-color: v.$very_dark_blue_main;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: v.$font_family;
+    line-height: 1.5;
+}
+
+h1 {
+    color: v.$white;
+    font-size: v.$font-size;
+    margin: 1.25rem 1.25rem 1.25rem 0rem;
+    padding-left: 1.563rem;
+
+    @include v.mobile {
+        padding-left: 1.125rem;
+    }
+}
+
+p {
+    font-size: v.$font-size;
+    color: v.$soft_blue;
+}
+
+span {
+    color: v.$white;
+}
+
+hr {
+    border: 1px solid v.$very_dark_blue_line;
+    margin-bottom: 1.25rem;
+    width: 85%;
+
+    @include v.mobile {
+        width: 17.5rem;
+    }
+}
+
+.card {
+    background-color: v.$very_dark_blue_card;
+    border-radius: 1.25rem;
+    padding-top: 2.5rem;
+    max-width: 22.313rem;
+
+    @include v.mobile {
+        margin-top: 1.875rem;
+        max-width: 20.313rem;
+    }
+}
+
+//images
+.image_equilibrium {
+    display: block;
+    border-radius: 0.625rem;
+    margin: 0rem auto;
+    height: 19.125rem;
+    width: 19.125rem;
+
+    @include v.mobile {
+        height: 17.563rem;
+        width: 17.563rem;
+    }
+}
+
+.image_avatar {
+    //border: 0.063rem solid v.$white;
+    height: 3.125rem;
+    padding-left: 1.563rem;
+    padding-bottom: 1.563rem;
+    float: left;
+
+    @include v.mobile {
+        padding-left: 1.125rem;
+        padding-bottom: 1.125rem;
+    }
+}
+
+//icons
+.icon_ethereum {
+    padding-left: 1.563rem;
+
+    @include v.mobile {
+        padding-left: 1.125rem;
+    }
+}
+
+.icon_clock {
+    padding-left: 6.25rem;
+
+    @include v.mobile {
+        padding-left: 5rem;
+    }
+}
+
+//messages
+.promotion_message {
+    padding-left: 1.563rem;
+    margin-bottom: 1.25rem;
+
+    @include v.mobile {
+        padding-left: 1.125rem;
+    }
+}
+
+.icon_ethereum_message,
+.icon_clock_message,
+.avatar_message {
+    display: inline-block;
+    margin-bottom: 1.25rem;
+}
+
+.icon_ethereum_message {
+    color: v.$cyan;
+}
+
+.avatar_message {
+    padding-left: 1.25rem;
+}
+
+/* activate */
+h1:hover {
+    color: v.$cyan;
+    cursor: pointer;
+}
+
+span:hover {
+    color: v.$cyan;
+    cursor: pointer;
+}
+
+.image_equilibrium:hover {
+    background-image: url("/images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+div:hover {
+    background-color: v.$cyan;
+    height: 19.125rem;
+    width: 19.125rem;
+    margin: 0 auto;
+    border-radius: 0.625rem;
+
+    @include v.mobile {
+        height: 17.563rem;
+        width: 17.563rem;
+    }
+}

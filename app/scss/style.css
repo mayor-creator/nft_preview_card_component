@@ -1,0 +1,160 @@
+/*typography */
+/*colors */
+/* media queries */
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.125rem;
+  margin: 1.25rem 1.25rem 1.25rem 0rem;
+  padding-left: 1.563rem;
+}
+@media (max-width: 30em) {
+  h1 {
+    padding-left: 1.125rem;
+  }
+}
+
+p {
+  font-size: 1.125rem;
+  color: hsl(215, 51%, 70%);
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 1.25rem;
+  width: 85%;
+}
+@media (max-width: 30em) {
+  hr {
+    width: 17.5rem;
+  }
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1.25rem;
+  padding-top: 2.5rem;
+  max-width: 22.313rem;
+}
+@media (max-width: 30em) {
+  .card {
+    margin-top: 1.875rem;
+    max-width: 20.313rem;
+  }
+}
+
+.image_equilibrium {
+  display: block;
+  border-radius: 0.625rem;
+  margin: 0rem auto;
+  height: 19.125rem;
+  width: 19.125rem;
+}
+@media (max-width: 30em) {
+  .image_equilibrium {
+    height: 17.563rem;
+    width: 17.563rem;
+  }
+}
+
+.image_avatar {
+  height: 3.125rem;
+  padding-left: 1.563rem;
+  padding-bottom: 1.563rem;
+  float: left;
+}
+@media (max-width: 30em) {
+  .image_avatar {
+    padding-left: 1.125rem;
+    padding-bottom: 1.125rem;
+  }
+}
+
+.icon_ethereum {
+  padding-left: 1.563rem;
+}
+@media (max-width: 30em) {
+  .icon_ethereum {
+    padding-left: 1.125rem;
+  }
+}
+
+.icon_clock {
+  padding-left: 6.25rem;
+}
+@media (max-width: 30em) {
+  .icon_clock {
+    padding-left: 5rem;
+  }
+}
+
+.promotion_message {
+  padding-left: 1.563rem;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 30em) {
+  .promotion_message {
+    padding-left: 1.125rem;
+  }
+}
+
+.icon_ethereum_message,
+.icon_clock_message,
+.avatar_message {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+}
+
+.icon_ethereum_message {
+  color: hsl(178, 100%, 50%);
+}
+
+.avatar_message {
+  padding-left: 1.25rem;
+}
+
+/* activate */
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.image_equilibrium:hover {
+  background-image: url("/images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+div:hover {
+  background-color: hsl(178, 100%, 50%);
+  height: 19.125rem;
+  width: 19.125rem;
+  margin: 0 auto;
+  border-radius: 0.625rem;
+}
+@media (max-width: 30em) {
+  div:hover {
+    height: 17.563rem;
+    width: 17.563rem;
+  }
+}/*# sourceMappingURL=style.css.map */
