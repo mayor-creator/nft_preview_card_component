@@ -132,16 +132,21 @@ span:hover {
     cursor: pointer;
 }
 
+/*
 .image_equilibrium:hover {
     background-image: url("/images/icon-view.svg");
     background-repeat: no-repeat;
     background-position: center center;
     cursor: pointer;
     opacity: 0.3;
-}
+}*/
 
-div:hover {
+.image_div:hover {
+    background-image: url("./../../images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-color: v.$cyan;
+    cursor: pointer;
     height: 19.125rem;
     width: 19.125rem;
     margin: 0 auto;
@@ -151,4 +156,8 @@ div:hover {
         height: 17.563rem;
         width: 17.563rem;
     }
+}
+
+.image_div:hover img {
+    opacity: 0.3;
 }
