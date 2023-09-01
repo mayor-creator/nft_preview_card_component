@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [nft_preview_card_component](https://github.com/mayor-creator/nft_preview_card_component)
-- Live Site URL: [nft_preview_card_component](https://your-live-site-url.com)
+- Live Site URL: [nft_preview_card_component_live_site](https://nft-preview-card-component-mayor-creator.vercel.app/)
 
 ## My process
 
